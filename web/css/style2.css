@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 Jun, 2015, 7:38:46 PM
+    Author     : Rachna
+*/
+
+body{
+	background:url(../images/background.jpg)  no-repeat center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+ 	position:relative;
+ 	font-family: 'Open Sans', sans-serif;
+
+}
+.login-form {
+	background: url(../images/reg.jpg) no-repeat 100% 0%;
+	background-size: 100%;
+	width:37%;
+	margin:1% auto 4% auto;
+ 	position: relative;
+}
+.login-form h1{
+	text-align:left;
+	color: #fff;
+	font-size:1.8em;
+	font-weight:500;
+	font-family: 'Open Sans', sans-serif;
+	position:absolute;
+	top:2%;
+	left:11%;
+	margin:0px 0;
+} 
+
+form {
+	padding:15% 3em;
+}
+form li{
+	border:1px solid #FFC600;
+	list-style:none;
+	margin-bottom:16px;
+	width:100%;
+	background: #FFC600;
+
+}
+
+
+.arrow{
+	background: url(../images/icons.png) no-repeat -62px 11px;
+	position: absolute;
+}
+input[type="text"], input[type="password"],input[type="date"] {
+	font-family: 'Open Sans', sans-serif;
+	width:60%;
+	padding: 0.5em 2em 0.5em 1em;
+	color: #fff;
+	font-size:20px;
+	outline: none;
+	background: none;
+	border:none;
+}
+select {
+font-family: 'Open Sans', sans-serif;
+	width:100%;
+	padding: 0.5em 2em 0.5em 1em;
+	color: white;
+	font-size:20px;
+	outline: none;
+	background: #ffc600;
+	border:none;
+}
+
+
+input[type="submit"]{
+	float:left;
+	font-size:18px;
+	display: inline-block;
+	font-weight:600;
+	color: #615F5F;
+	transition: 0.1s all;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-o-transition: 0.1s all;
+	cursor: pointer;
+	outline: none;
+	padding:7px 10px;
+	margin-top:3px;
+	font-family: 'Open Sans', sans-serif;
+	background: #222;
+	width:45%;
+	border:1px solid #222;
+}
+input[type="submit"]:hover{
+	background: #FFC600;
+	border:1px solid #FFC600;
+}
+.forgot{
+	margin:30px 7px;
+}
+.forgot h3 a{
+	color:#fff;
+	font-size:15px;
+	font-family: 'Open Sans', sans-serif;	
+	float:right;
+	font-weight:600;
+	margin-top:22px;
+}
+.forgot h3 a:hover{
+	color:#FFC600;
+}
+/****************/
+.copy-right {
+	position: absolute;
+	bottom:-5%;
+	left: 39%;
+}
+.copy-right p {
+	color: #fff;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;	
+	font-weight: 600;
+}
+.copy-right p a {
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 1em;
+	color:#170829;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.copy-right p a:hover {
+	color:#fff;
+}
